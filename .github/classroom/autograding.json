@@ -6,9 +6,19 @@
       "run": "pytest -k adder2bits",
       "input": "",
       "output": "",
-      "comparison": "included",
+      "comparison": "exact",
       "timeout": 10,
       "points": 1
+    },
+    {
+      "name": "adder",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k adder",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
     }
   ]
 }
